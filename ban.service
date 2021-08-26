@@ -3,6 +3,6 @@ Description=My test service
 [Service]
 Type=simple
 Restart=on-failure
-ExecStart=/usr/bin/python3 /root/ip-ban/start.py
+ExecStart=/usr/bin/python3 dir/start.py
 [Install]
 WantedBy=multi-user.target  
